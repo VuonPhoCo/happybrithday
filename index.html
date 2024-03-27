@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAPPY BIRTHDAY HÍ TRỌC</title>
+<style>
+    body {
+background-image: url(7c82af2f3be372cf1d9218b022b84670.gif);    
+background-size: cover; /* Kích thước ảnh nền phù hợp với kích thước màn hình */
+        background-position: center ; /* Đặt ảnh nền ở giữa trang */
+       
+    margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+    .birthday {
+        text-align: center;
+        color: #000; /* Thay đổi màu chữ thành đen */
+        font-size: 30px;
+        position: relative;
+    }
+    .birthday::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+        background-size: 600% 600%;
+        z-index: -1;
+        animation: colors 10s linear infinite;
+    }
+    .hi {
+        left: 30px;
+        right: 30px;
+    }
+    @keyframes colors {
+        0% { background-position: 0 0; }
+        100% { background-position: 100% 100%; }
+    }
+</style>
+</head>
+<body>
+<div class="birthday">
+    <b><h1>HAPPY BIRTHDAY HÍ TRỌC!</h1></b>
+    <b class="hi"><p>CHÚC BẠN NGÀY NÀO CŨNG VUI VẺ MIỆNG CƯỜI ĐẾN MANG TAI VÀ MONEY TIÊU KHÔNG XUỂ</p>
+        <a href="sinhnhat.html">Click here</a></b>
+</div>
+
+</body>
+</html>
